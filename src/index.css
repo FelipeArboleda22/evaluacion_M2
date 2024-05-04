@@ -1,0 +1,50 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    background-color: #52606e;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #BDC3C7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el formulario */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #52606e;
+    border-radius: 4px;
+  }
+  
+  /* Estilos para botón */
+  .btn-primary {
+    background-color: #1C2833;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #923b01;
+  }
+  
