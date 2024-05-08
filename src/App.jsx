@@ -12,9 +12,9 @@ function App() {
 
   return (
     <div>
-      <h1>Registro de Eventos</h1>
+      <h1 className="titulo">Registro de Eventos</h1>
       <EventForm addEvent={addEvent} />
-      <h2>Eventos Registrados:</h2>
+      <h2 className="titulo">Eventos Registrados:</h2>
       <EventList events={events} />
     </div>
   );

@@ -20,11 +20,6 @@ body {
     margin-bottom: 20px;
   }
   
-  .form-label {
-    font-weight: bold;
-    margin-bottom: 8px;
-    display: block;
-  }
   
   .form-control {
     width: 100%;
@@ -48,3 +43,40 @@ body {
     background-color: #923b01;
   }
   
+  .titulo{
+    text-align: center; 
+    font-family: Comic Sans MS; 
+    font-weight:bold; 
+    font-size: 50px; 
+    color: #cfdfe0; 
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68, 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .h1{
+    text-align: left; 
+    font-family: Arial Black; 
+    font-weight: bold; font-size: 30px; 
+    background: #142d81; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.4),0px -1px 1px rgba(0,0,0,0.3);
+    }
+
+    .Neon{text-align: center; 
+      font-family: Arial; 
+      font-size: 25px; 
+      COLOR: #cfdfe0; 
+      text-shadow: 0px 0px 9px #0d64ce;
+      }
+
+      .Neon2{text-align: center; 
+        font-family: Arial, sans-serif;
+        font-size: 40px; 
+        font-weight: bold;
+        COLOR: #1852aa; 
+        text-shadow: 0px 0px 9px #dde9f8;
+        }

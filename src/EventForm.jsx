@@ -20,7 +20,7 @@ function EventForm({ addEvent }) {
     <div className="container mt-5">
       <form className="form-container" onSubmit={handleSubmit}>
         <div className="mb-3">
-          <label htmlFor="eventName" className="form-label">Nombre del Evento:</label>
+          <label htmlFor="eventName" className="h1">Nombre del Evento:</label>
           <input
             type="text"
             className="form-control"
@@ -30,7 +30,7 @@ function EventForm({ addEvent }) {
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="eventDate" className="form-label">Fecha:</label>
+          <label htmlFor="eventDate" className="h1">Fecha:</label>
           <input
             type="date"
             className="form-control"
@@ -40,7 +40,7 @@ function EventForm({ addEvent }) {
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="eventLocation" className="form-label">Ubicación:</label>
+          <label htmlFor="eventLocation" className="h1">Ubicación:</label>
           <input
             type="text"
             className="form-control"
@@ -50,7 +50,7 @@ function EventForm({ addEvent }) {
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="eventDescription" className="form-label">Descripción:</label>
+          <label htmlFor="eventDescription" className="h1">Descripción:</label>
           <textarea
             className="form-control"
             id="eventDescription"

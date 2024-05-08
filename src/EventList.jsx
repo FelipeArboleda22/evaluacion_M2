@@ -5,10 +5,12 @@ function EventList({ events }) {
     <div>
       {events.map((event, index) => (
         <div key={index}>
-          <h3>{event.name}</h3>
-          <p><strong>Fecha:</strong> {event.date}</p>
-          <p><strong>Ubicación:</strong> {event.location}</p>
-          <p><strong>Descripción:</strong> {event.description}</p>
+          <h3 className='Neon2'>{event.name}</h3>
+          <br />
+          <p className='Neon'><strong>-Fecha:</strong> {event.date}</p>
+          <p className='Neon'><strong>-Ubicación:</strong> {event.location}</p>
+          <p className='Neon'><strong>-Descripción:</strong> {event.description}</p>
+          <br />
         </div>
       ))}
     </div>
